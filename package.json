@@ -1,0 +1,22 @@
+{
+  "name": "movie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mowens86/speedango.git"
+  },
+  "author": "Mike Owens",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mowens86/speedango/issues"
+  },
+  "homepage": "https://github.com/mowens86/speedango#readme",
+  "dependencies": {
+    "sass": "^1.26.10"
+  }
+}

@@ -1,0 +1,21 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Anton", sans-serif;
+}
+
+div, ul, li, button, a, nav, section {
+  font-family: "Oswald", sans-serif;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+.bg-img {
+  background-image: url("https://i.ibb.co/Mhb8mDj/popcorn.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -60,6 +60,10 @@ div, ul, li, button, a, nav, section {
   background: #242424;
 }
 
+.moviedb-logo {
+  width: 150px;
+}
+
 @media only screen and (min-width: 990px) {
   .pt-custom,
 .pt-custom-login {

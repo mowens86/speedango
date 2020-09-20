@@ -70,9 +70,14 @@ div, ul, li, button, a, nav, section {
     color: $white;
 }
 
-// Top Rated MNovie Section
+// Top Rated Movie Section
 .bg-black {
     background: $dark-gray;
+}
+
+// Footer
+.moviedb-logo {
+    width: 150px;
 }
 
 // Media Query

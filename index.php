@@ -10,7 +10,7 @@
             <div class="white-bg text-center pt-3">
                 <h1 class="display-5">Plan a Flick</h1>
                 <p>Rating, Reviews, & More</p>
-                <a class="btn btn-info btn-lg" href="#" role="button">Login</a>
+                <a class="btn btn-info btn-lg" href="login.php" role="button">Login</a>
                 <a class="btn btn-danger btn-lg" href="#" role="button">Register</a>
             </div>
         </div>

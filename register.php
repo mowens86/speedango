@@ -4,10 +4,15 @@
 <!-- Login Section -->
 <section>
     <div class="bg-img">
-        <div class="pt-custom-login">
-            <div class="login-white-bg pt-3">
-                <h1 class="display-5 text-center">Login</h1>
+        <div class="pt-custom-register">
+            <div class="register-white-bg pt-3">
+                <h1 class="display-5 text-center">Register</h1>
                 <form class="p-3" action="" method="POST">
+
+                <div class="form-group">
+                        <input type="email" name="email" class="form-control" placeholder="Email">
+                    </div>
+
                     <div class="form-group">
                         <input type="text" name="username" class="form-control" placeholder="Username">
                     </div>
@@ -22,7 +27,7 @@
 
                     
                     <div class="input-group">
-                        <p class="m-auto pt-2">Not a member? <a href="register.php" class="link-color">Register</a></p>
+                        <p class="m-auto pt-2">Already a member? <a href="login.php" class="link-color">Login</a></p>
                     </div>
                     
                 </form>

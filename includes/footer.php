@@ -1,5 +1,5 @@
 <footer class="bg-dark text-center p-3">
-    <div class="row">
+    <div class="row p-3">
         <div class="col">
             <p class="text-white m-auto">Movie Data Powered By:</p>
             <img class="align-self-center moviedb-logo" src="./assets/moviedb.svg" alt="The Movie DB" title="The Movie DB">

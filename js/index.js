@@ -13,8 +13,8 @@ const topMoviesApi = () => {
         movies.forEach(movie => {
             let output = `
                 <div class="col-sm-4">
-                    <div class="card m-2">
-                        <a href="#" target="_blank">
+                    <div class="card m-2 card-zoom">
+                        <a href="#">
                             <img class="card-img-top" src="//image.tmdb.org/t/p/w440_and_h660_face/${movie.poster_path}" alt="" title="${movie.original_title}">
                         </a>
                         <div class="card-body">

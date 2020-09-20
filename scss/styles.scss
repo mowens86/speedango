@@ -8,12 +8,22 @@ $dark-gray: #242424;
 $white: #FFFFFF;
 
 
+// Font Family
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Anton', sans-serif;
 }
 
 div, ul, li, button, a, nav, section {
     font-family: 'Oswald', sans-serif;
+}
+
+// Link Styles
+.link-color {
+    color: $red;
+}
+
+.link-color:hover {
+    color: $salmon;
 }
 
 // Navbar Styles
@@ -39,8 +49,21 @@ div, ul, li, button, a, nav, section {
     margin: 0 auto;
 }
 
+.login-white-bg {
+    background: $white;
+    width: 300px;
+    height: 300px;
+    border: 2px solid $red;
+    border-radius: .5rem;
+    margin: 0 auto;
+}
+
 .pt-custom {
     padding-top: 8rem;
+}
+
+.pt-custom-login {
+    padding-top: 3rem;
 }
 
 .white-txt {
@@ -54,7 +77,8 @@ div, ul, li, button, a, nav, section {
 
 // Media Query
 @media only screen and (min-width: 990px) {
-    .pt-custom {
+    .pt-custom, 
+    .pt-custom-login {
         padding-top: 12rem;
     }
 

@@ -1,6 +1,6 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="index.php">
         <img class="logo" src="./assets/logo.png" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -10,10 +10,10 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav justify-content-center">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Register <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="">Register <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="login.php">Login <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Browse Movies</a>

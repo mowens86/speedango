@@ -1,28 +1,30 @@
 // Test TMBD
-const topFiveList = document.getElementById('topFiveList');
+const topMovies = document.getElementById('topMovies');
+const tmdbKey = "95560dd40ad749348a5fa29960e0e8ae";
 
 
 /** Fetch */
-const getApi = () => {
-    fetch('https://api.themoviedb.org/3/discover/movie?api_key=95560dd40ad749348a5fa29960e0e8ae&language=en-US&sort_by=popularity.desc&page=1')
+const topMoviesApi = () => {
+    fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${tmdbKey}&language=en-US&sort_by=popularity.desc&page=1`)
     .then((res) => res.json())
     .then((data) => {
-        const firstFive = data.results.slice(0,6);
-        console.log(firstFive);
-        firstFive.forEach(e => {
+        const movies = data.results.slice(0,6);
+        console.log(movies);
+        movies.forEach(movie => {
             let output = `
                 <div class="col-sm-4">
                     <div class="card m-2">
-                        <img class="card-img-top" src="//image.tmdb.org/t/p/w440_and_h660_face/${e.poster_path}" alt="Card image cap">
+                        <a href="#" target="_blank">
+                            <img class="card-img-top" src="//image.tmdb.org/t/p/w440_and_h660_face/${movie.poster_path}" alt="" title="${movie.original_title}">
+                        </a>
                         <div class="card-body">
-                            <h6 class="card-title text-center">${e.original_title}</h6>
+                            <h6 class="card-title text-center">${movie.original_title}</h6>
                         </div>
                     </div>
                 </div>
             `;
-            topFiveList.innerHTML += output;
+            topMovies.innerHTML += output;
         });
-        
     })
     .catch((err) => console.log(err))
 }
@@ -48,7 +50,7 @@ const getApi = () => {
 
 
 window.onload = function() {
-    getApi();
+    topMoviesApi();
 };
 
 

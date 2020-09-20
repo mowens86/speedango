@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass-watch": "sass --watch scss:css",
+    "dev": "concurrently --kill-others \"npm run sass-watch\""
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,10 @@
   },
   "homepage": "https://github.com/mowens86/speedango#readme",
   "dependencies": {
+    "axios": "^0.20.0",
     "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
   }
 }

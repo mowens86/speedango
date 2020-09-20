@@ -10,13 +10,14 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav justify-content-center">
             <li class="nav-item active">
+                <a class="nav-link" href="#">Register <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Movies</a>
+                <a class="nav-link" href="#">Browse Movies</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Buy Tickets</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">About Us</a>

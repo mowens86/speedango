@@ -2,22 +2,46 @@
     <div class="row p-3">
         <div class="col">
             <p class="text-white m-auto">Movie Data Powered By:</p>
-            <img class="align-self-center moviedb-logo" src="./assets/moviedb.svg" alt="The Movie DB" title="The Movie DB">
+            <a href="https://www.themoviedb.org/" target="_blank">
+                <img class="align-self-center moviedb-logo" src="./assets/moviedb.svg" alt="The Movie DB" title="The Movie DB">
+            </a>
         </div>
     </div>
-    <a class="link-color" href="">Register</a>
-    <span class="link-color"> | </span>
-    <a class="link-color" href="login.php">Login</a>
-    <span class="text-white"> | </span>
-    <a class="link-color" href="">Browse Movies</a>
-    <span class="text-white"> | </span>
-    <a class="link-color" href="">About Us</a>
-    <span class="text-white"> | </span>
-    <a class="link-color" href="">Contact Us</a>
+
+    <?php 
+
+if(isset($_SESSION['username'])) {
+    
+    echo "<a class='link-color' href=''>Browse Movies</a>
+    <span class='text-white'> | </span>";
+
+    echo "<a class='link-color' href=''>About Us</a>
+    <span class='text-white'> | </span>";
+
+    echo "<a class='link-color' href=''>Contact Us</a>
+    <span class='text-white'> | </span>"; 
+          
+    echo "<a class='link-color' href='logout.php'>Logout</a>";
+
+} else {
+
+    echo "<a class='link-color' href='register.php'>Register</a>
+    <span class='text-white'> | </span>";
+         
+    echo "<a class='link-color' href='login.php'>Login</a>
+    <span class='text-white'> | </span>";
+        
+    echo "<a class='link-color' href=''>About Us</a>
+    <span class='text-white'> | </span>";
+
+    echo "<a class='link-color' href=''>Contact Us</a>";     
+}
+
+?>
+
     <p class="white-txt p-2 m-0"><strong>© <?php echo date("Y"); ?> SPEEDANGO. All Rights Reserved.</strong></p>
 </footer>
-<!-- Scripts JS -->
-<script src="js/index.js"></script>
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

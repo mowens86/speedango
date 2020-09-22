@@ -1,9 +1,9 @@
-// Test TMBD
+// TMBD variables
 const topMovies = document.getElementById('topMovies');
 const tmdbKey = "95560dd40ad749348a5fa29960e0e8ae";
 
 
-/** Fetch */
+/** Fetch Top Movies */
 const topMoviesApi = () => {
     fetch(`https://api.themoviedb.org/3/discover/movie?api_key=${tmdbKey}&language=en-US&sort_by=popularity.desc&page=1`)
     .then((res) => res.json())
@@ -49,9 +49,8 @@ const topMoviesApi = () => {
 // }
 
 
-window.onload = function() {
-    topMoviesApi();
-};
+topMoviesApi();
+
 
 
 

@@ -28,5 +28,7 @@
 </section>
 <!-- End Top Rating Section -->
 
+<!-- Scripts JS -->
+<script src="js/index.js"></script>
 
 <?php include "includes/footer.php" ?>

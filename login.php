@@ -7,7 +7,7 @@
         <div class="pt-custom-login">
             <div class="login-white-bg pt-3">
                 <h1 class="display-5 text-center">Login</h1>
-                <form class="p-3" action="" method="POST">
+                <form class="p-3" action="includes/login_connection.php" method="POST">
                     <div class="form-group">
                         <input type="text" name="username" class="form-control" placeholder="Username">
                     </div>

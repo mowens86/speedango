@@ -23,7 +23,7 @@ div, ul, li, button, a, nav, section {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .white-bg {
@@ -54,12 +54,12 @@ div, ul, li, button, a, nav, section {
 }
 
 .pt-custom {
-  padding-top: 8rem;
+  padding-top: 14rem;
 }
 
 .pt-custom-login,
 .pt-custom-register {
-  padding-top: 3rem;
+  padding-top: 10rem;
 }
 
 .white-txt {
@@ -85,15 +85,15 @@ div, ul, li, button, a, nav, section {
 @media only screen and (min-width: 990px) {
   .pt-custom,
 .pt-custom-login {
-    padding-top: 12rem;
+    padding-top: 15rem;
   }
 
   .pt-custom-register {
-    padding-top: 8rem;
+    padding-top: 12rem;
   }
 
   .bg-img {
-    height: 600px;
+    height: 700px;
   }
 }
 

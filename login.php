@@ -1,6 +1,11 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/navigation.php" ?>
 
+<?php 
+
+
+?>
+
 <!-- Login Section -->
 <section>
     <div class="bg-img">

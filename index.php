@@ -1,8 +1,6 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/navigation.php" ?>
 
-
-
 <!-- Hero Section -->
 <section>
     <div class="bg-img">
@@ -11,7 +9,7 @@
                 <h1 class="display-5">Plan a Flick</h1>
                 <p>Rating, Reviews, & More</p>
                 <a class="btn btn-info btn-lg" href="login.php" role="button">Login</a>
-                <a class="btn btn-danger btn-lg" href="#" role="button">Register</a>
+                <a class="btn btn-danger btn-lg" href="register.php" role="button">Register</a>
             </div>
         </div>
     </div>

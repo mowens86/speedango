@@ -1,28 +1,44 @@
 <?php include "includes/header.php" ?>
 <?php include "includes/navigation.php" ?>
 
+<?php 
+
+if(isset($_POST['register'])){
+    $user_email = $_POST['user_email'];
+    $username = $_POST['username'];
+    $user_password = $_POST['user_password'];
+
+    $query = "INSERT INTO users(user_email, username, user_password) ";
+    $query .= "VALUES('{$user_email}', '{$username}', '{$user_password}' ) ";
+    $create_user_query = mysqli_query($connection, $query);
+
+    confirmQuery($create_user_query);
+}
+
+?>
+
 <!-- Login Section -->
 <section>
     <div class="bg-img">
         <div class="pt-custom-register">
             <div class="register-white-bg pt-3">
                 <h1 class="display-5 text-center">Register</h1>
-                <form class="p-3" action="" method="POST">
+                <form class="p-3" action="register_success.php" method="POST">
 
                 <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Email">
+                        <input type="email" name="user_email" class="form-control" placeholder="Email*" required>
                     </div>
 
                     <div class="form-group">
-                        <input type="text" name="username" class="form-control" placeholder="Username">
+                        <input type="text" name="username" class="form-control" placeholder="Username*">
                     </div>
 
                     <div class="input-group">
-                        <input name="password" type="password" class="form-control" placeholder="Password">
+                        <input type="password" name="user_password" class="form-control" placeholder="Password*">
                     </div>
 
                     <div class="input-group pt-3">
-                        <button class="btn btn-info btn-lg btn-block" name="login" type="submit">Submit</button>
+                        <button class="btn btn-info btn-lg btn-block" name="register" type="submit">Submit</button>
                     </div>
 
                     

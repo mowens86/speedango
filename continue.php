@@ -6,9 +6,10 @@
     <div class="bg-img">
         <div class="pt-custom">
             <div class="white-bg text-center pt-3">
-                <h1 class="display-6">Success!</h1>
-                <p>Have fun <?php echo $_SESSION['username']; ?>...</p>
-                <a class="btn btn-info btn-lg" href="movie.php" role="button">Browse Movies</a>
+                <h1 class="display-5">To continue...</h1>
+                <p>Please login or register</p>
+                <a class="btn btn-info btn-lg" href="login.php" role="button">Login</a>
+                <a class="btn btn-danger btn-lg" href="register.php" role="button">Register</a>
             </div>
         </div>
     </div>

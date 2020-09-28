@@ -8,7 +8,7 @@
             <div class="white-bg text-center pt-3">
                 <h1 class="display-6">Success!</h1>
                 <p>Have fun <?php echo $_SESSION['username']; ?>...</p>
-                <a class="btn btn-info btn-lg" href="movie.php" role="button">Browse Movies</a>
+                <a class="btn btn-info btn-lg" href="search.php" role="button">Browse Movies</a>
             </div>
         </div>
     </div>

@@ -12,7 +12,7 @@
 
 if(isset($_SESSION['username'])) {
     
-    echo "<a class='link-color' href=''>Browse Movies</a>
+    echo "<a class='link-color' href='search.php'>Browse Movies</a>
     <span class='text-white'> | </span>";
 
     echo "<a class='link-color' href=''>About Us</a>

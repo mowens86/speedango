@@ -16,7 +16,7 @@
                 if(isset($_SESSION['username'])) {
                     
                     echo "<li class='nav-item active'>
-                            <a class='nav-link' href='#'>Browse Movies</a>
+                            <a class='nav-link' href='search.php'>Browse Movies</a>
                          </li>";
 
                     echo "<li class='nav-item'>

@@ -53,13 +53,7 @@ if(isset($_SESSION['username'])) {
                             searchResults($search_results);
                         }
                     }
-
-
-
-                
-                
                 ?>
-                
                 
             </div>
 

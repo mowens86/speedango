@@ -35,11 +35,7 @@ if(isset($_SESSION['username'])) {
     ";
 }
 
-
 ?>
-
-
-
 <!-- End Hero Section -->
 
 <!-- Top Movie Rating Section -->

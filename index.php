@@ -35,10 +35,6 @@ if(isset($_SESSION['username'])) {
     ";
 }
 
-// if(isset($_GET['movie'])){
-    
-// }
-
 
 ?>
 

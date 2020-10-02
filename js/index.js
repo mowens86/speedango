@@ -1,6 +1,6 @@
 // TMBD variables
 const topMovies = document.getElementById('topMovies');
-const tmdbKey = "95560dd40ad749348a5fa29960e0e8ae";
+const tmdbKey = "95560dd40ad749348a5fa29960e0e8ae"; // Use express with dotenv for best practice
 const topMovieIds = [];
 
 

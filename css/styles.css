@@ -28,7 +28,7 @@ div, ul, li, button, a, nav, section {
 
 .white-bg {
   background: #FFFFFF;
-  width: 300px;
+  width: 250px;
   height: 185px;
   border: 2px solid #C81D25;
   border-radius: 0.5rem;
@@ -37,7 +37,7 @@ div, ul, li, button, a, nav, section {
 
 .login-white-bg {
   background: #FFFFFF;
-  width: 300px;
+  width: 250px;
   height: 330px;
   border: 2px solid #C81D25;
   border-radius: 0.5rem;
@@ -46,7 +46,7 @@ div, ul, li, button, a, nav, section {
 
 .register-white-bg {
   background: #FFFFFF;
-  width: 300px;
+  width: 250px;
   height: 400px;
   border: 2px solid #C81D25;
   border-radius: 0.5rem;

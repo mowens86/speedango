@@ -56,19 +56,10 @@ if(isset($_SESSION['username'])) {
                 ?>
                 
             </div>
-
-
-<!-- End Search Results Section -->
-
-<!-- Movie Genre Section -->
-    <div class="container">
-        <h1 class="text-center text-white pt-2">Browse By Genre</h1>
-        <div id="movieGenre" class="row p-5">
-        
-        </div>
+    </div>
 
 </section>
-<!-- End Movie Genre Section -->
+<!-- End Search Results Section -->
 
 <script type="module" src="js/search.js"></script>
 <?php include "includes/footer.php" ?>

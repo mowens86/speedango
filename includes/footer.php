@@ -15,10 +15,10 @@ if(isset($_SESSION['username'])) {
     echo "<a class='link-color' href='search.php'>Browse Movies</a>
     <span class='text-white'> | </span>";
 
-    echo "<a class='link-color' href=''>About Us</a>
+    echo "<a class='link-color' href='about.php'>About Us</a>
     <span class='text-white'> | </span>";
 
-    echo "<a class='link-color' href=''>Contact Us</a>
+    echo "<a class='link-color' href='contact.php'>Contact Us</a>
     <span class='text-white'> | </span>"; 
           
     echo "<a class='link-color' href='logout.php'>Logout</a>";
@@ -31,10 +31,10 @@ if(isset($_SESSION['username'])) {
     echo "<a class='link-color' href='login.php'>Login</a>
     <span class='text-white'> | </span>";
         
-    echo "<a class='link-color' href=''>About Us</a>
+    echo "<a class='link-color' href='about.php'>About Us</a>
     <span class='text-white'> | </span>";
 
-    echo "<a class='link-color' href=''>Contact Us</a>";     
+    echo "<a class='link-color' href='contact.php'>Contact Us</a>";     
 }
 
 ?>

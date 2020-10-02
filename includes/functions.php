@@ -9,7 +9,6 @@ function confirmQuery($result) {
 
 function searchResults($results) {
     foreach ($results as $result) {
-        
         if($result['poster_path'] !== null) {
             echo "
             <div class='col-md-4'>
@@ -21,6 +20,14 @@ function searchResults($results) {
                 </div>
             </div>";
         }
+    }
+}
+
+function infoGenres($genres) {
+    foreach($genres as $genre) {
+            echo "
+                <span class='badge badge-warning m-1'>" . $genre['name'] . "</span>
+            ";
     }
 }
 

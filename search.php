@@ -9,7 +9,7 @@ if(isset($_SESSION['username'])) {
     <section class='bg-black'>
         <div class='container'>
             <h1 class='text-center text-white custom-pt-6'>Movie Browser</h1>
-            <form id='movieSearchBar' class='row pt-5 pb-2' action=''>
+            <form id='movieSearchBar' class='row pt-5 pb-2 m-0' action=''>
 
                 <div class='input-group mb-1'>
                     <input type='text' id='search' class='form-control' name='query' placeholder='Search by movie title...'

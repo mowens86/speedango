@@ -1,7 +1,6 @@
 // TMBD variables
 const topMovies = document.getElementById('topMovies');
 const tmdbKey = "95560dd40ad749348a5fa29960e0e8ae"; // Use express with dotenv for best practice
-const topMovieIds = [];
 
 
 // Fetch Top Movies Functions
@@ -14,7 +13,6 @@ async function fetchTopMovies() {
 fetchTopMovies().then(movies => {
     const slicedMovies = movies.results.slice(0, 6);
     slicedMovies.forEach(movie => {
-        topMovieIds.push(movie.id);
         let output = `
             <div class="col-sm-4">
                 <div class="card m-2 card-zoom">

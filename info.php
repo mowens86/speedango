@@ -99,8 +99,8 @@
                     $movie->set_vote_average($movie_vote_average);
 
                     echo "
-                        <div class='col'>
-                            <img src='//image.tmdb.org/t/p/w440_and_h660_face" . $movie->get_image() . "' title='" . $movie->get_name() . "'>
+                        <div class='col-md-6'>
+                            <img class='img-fluid rounded' src='//image.tmdb.org/t/p/w440_and_h660_face" . $movie->get_image() . "' title='" . $movie->get_name() . "'>
                     "?>
                             
                             <div class="inline-block pt-2 pb-2"><?php infoGenres($movie_genres); ?></div>
@@ -109,22 +109,21 @@
                     <?php 
 
                     echo "
-                    <div class='col'>
+                    <div class='col-md-6'>
                         <h1 class='text-white'>" . $movie->get_name() . "</h1>
                         <h4 class='text-white'>Overview</h4>
                         <p class='text-white'>" . $movie->get_overview() . "</p>
                         <h6 class='text-white'>Movie Rating: " . $movie->get_vote_average() . "</p>
                         <h6 class='text-white'>Movie Release Date: " . $movie->get_release_date() . "</p>
                         <h6 class='text-white'>Movie Runtime: " . $movie->get_runtime() . " minutes</p>
-                        <a class='btn btn-info btn-lg' href='search.php' role='button'>Browse Movies</a>
+                        <a class='btn btn-danger' href='search.php' role='button'>Browse Movies</a>
                     </div>
                     ";
                 }
             ?>
     
-
         </div>
 
 </section>
-<!-- End Movie Genre Section -->
+<!-- End Movie Info Section -->
 <?php include "includes/footer.php" ?>

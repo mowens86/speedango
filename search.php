@@ -9,16 +9,17 @@ if(isset($_SESSION['username'])) {
     <section class='bg-black'>
         <div class='container'>
             <h1 class='text-center text-white custom-pt-6'>Movie Browser</h1>
-            <form id='movieSearchBar' class='row p-5' action=''>
+            <form id='movieSearchBar' class='row pt-5 pb-2' action=''>
 
-                <div class='input-group mb-3'>
-                    <input type='text' class='form-control' name='query' placeholder='Search by movie title...'
-                        aria-label='Seach movie' aria-describedby='basic-addon2'>
+                <div class='input-group mb-1'>
+                    <input type='text' id='search' class='form-control' name='query' placeholder='Search by movie title...'
+                        aria-label='Seach movie' aria-describedby='basic-addon2'>   
                     <div class='input-group-append'>
                         <button class='btn btn-danger' type='submit'>Search</button>
                     </div>
                 </div>
             </form>
+            <div id='match-list'></div> 
     </section>
     <!-- End Movie Browser Section -->
     ";
@@ -32,7 +33,7 @@ if(isset($_SESSION['username'])) {
 <!-- Search Results Section -->
 <section class="bg-black">
     <div class="container">
-    <h1 class='text-center text-white pt-2'>Results...</h1>
+    <h1 class='text-center text-white pt-5'>Results...</h1>
             <div id="movieResults" class="row p-5">
                 
 

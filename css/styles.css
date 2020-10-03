@@ -86,6 +86,18 @@ div, ul, li, button, a, nav, section {
   width: 150px;
 }
 
+.img-responsiveness {
+  width: 100%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.red-txt {
+  color: #C81D25;
+}
+
 @media only screen and (min-width: 990px) {
   .pt-custom,
 .pt-custom-login {

@@ -5,9 +5,15 @@
 <section>
     <div class="bg-img">
         <div class="pt-custom">
-            <div class="thank-white-bg text-center p-3">
+            <div class="about-white-bg text-center p-3">
                 <h1 class="display-6">About Us</h1>
-                <p class="p-2">As you might've guessed. We're completely made up, using a spin-off of Fandango. This small application was created by Michael Owens.</p>
+                <p class="pt-1 pl-2 pr-2">This small application was created by Michael Owens. Learn more about me below with my portfolio and github.</p>
+                <a class="link-color-2 m-1" href="https://www.mowenstech.com/" target="_blank">
+                    <i class="fas fa-briefcase fa-2x"></i>
+                </a>
+                <a class="link-color-2 m-1" href="https://github.com/mowens86" target="_blank">
+                    <i class="fab fa-github-square fa-2x"></i>
+                </a>
             </div>
         </div>
     </div>

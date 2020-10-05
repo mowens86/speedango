@@ -16,3 +16,7 @@ It allows guests to register, users to login, and search for movies using API ca
 * Create testing
 * Organize folders and files
 
+# Things to Consider
+* Figuring Out A Way To Hide API Keys in both PHP and JS (dotenv)
+* Pagination
+

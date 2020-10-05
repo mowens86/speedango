@@ -13,6 +13,10 @@ if(isset($_POST['register'])){
     $create_user_query = mysqli_query($connection, $query);
 
     confirmQuery($create_user_query);
+
+    $message = "Succesffuly registered!";
+} else {
+    $message = "";
 }
 
 ?>
@@ -23,7 +27,9 @@ if(isset($_POST['register'])){
         <div class="pt-custom-register">
             <div class="register-white-bg pt-3">
                 <h1 class="display-5 text-center">Register</h1>
-                <form class="p-3" action="register_success.php" method="POST">
+                <form class="p-3" action="" method="POST">
+
+                <p class="text-center"><?php echo $message; ?></p>
 
                 <div class="form-group">
                         <input type="email" name="user_email" class="form-control" placeholder="Email*" required>

@@ -26,6 +26,15 @@ div, ul, li, button, a, nav, section {
     color: $salmon;
 }
 
+// Link Styles
+.link-color-2 {
+    color: $aqua-blue;
+}
+
+.link-color-2:hover {
+    color: $dark-blue;
+}
+
 // Navbar Styles
 .logo {
     max-width: 200px;
@@ -49,10 +58,10 @@ div, ul, li, button, a, nav, section {
     margin: 0 auto;
 }
 
-.thank-white-bg {
+.about-white-bg {
     background: $white;
     width: 250px;
-    height: 220px;
+    height: 270px;
     border: 2px solid $red;
     border-radius: .5rem;
     margin: 0 auto;

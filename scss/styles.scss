@@ -49,6 +49,15 @@ div, ul, li, button, a, nav, section {
     margin: 0 auto;
 }
 
+.thank-white-bg {
+    background: $white;
+    width: 250px;
+    height: 220px;
+    border: 2px solid $red;
+    border-radius: .5rem;
+    margin: 0 auto;
+}
+
 .login-white-bg {
     background: $white;
     width: 250px;
@@ -58,7 +67,8 @@ div, ul, li, button, a, nav, section {
     margin: 0 auto;
 }
 
-.register-white-bg {
+.register-white-bg,
+.contact-white-bg {
     background: $white;
     width: 250px;
     height: 400px;
@@ -72,7 +82,8 @@ div, ul, li, button, a, nav, section {
 }
 
 .pt-custom-login,
-.pt-custom-register {
+.pt-custom-register,
+.pt-custom-contact {
     padding-top: 10rem;
 }
 
@@ -126,9 +137,11 @@ div, ul, li, button, a, nav, section {
         padding-top: 15rem;
     }
 
-    .pt-custom-register {
+    .pt-custom-register,
+    .pt-custom-contact {
         padding-top: 12rem;
     }
+    
 
     .bg-img {
         height: 700px;

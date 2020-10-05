@@ -5,9 +5,9 @@
 <section>
     <div class="bg-img">
         <div class="pt-custom">
-            <div class="thank-white-bg text-center p-3">
-                <h1 class="display-6">About Us</h1>
-                <p class="p-2">As you might've guessed. We're completely made up, using a spin-off of Fandango. This small application was created by Michael Owens.</p>
+            <div class="white-bg text-center pt-3">
+                <h1 class="display-6">Thank you!</h1>
+                <p class="p-2">We've received your message. We'll get in touch with you as soon as we can!</p>
             </div>
         </div>
     </div>

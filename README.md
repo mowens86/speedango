@@ -13,8 +13,6 @@ It allows guests to register, users to login, and search for movies using API ca
 * Uses API Calls In PHP & JS for Practice
 
 # To Dos
-* Update contact us page
-* UYpdate about us page
 * Create testing
 * Organize folders and files
 
